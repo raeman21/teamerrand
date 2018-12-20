@@ -50,13 +50,7 @@ body {
 
 
 }
-::placeholder{
-  color: black;
-}
-.image{
-  height: 200px;
-  image-rendering:crisp-edges;
-}
+
 
 input {
     height: 45px;
