@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Nunito', sans-serif;
+    background: linear-gradient(#4E8AE5,#7CCADA) no-repeat;
 
   }
 
@@ -41,7 +42,7 @@ body {
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(36, 29, 29);
-    color: rgb(8, 2, 2);
+    color: white;
     font-size: 20px;
     margin-bottom: 16px;
     margin: 0 auto;
@@ -49,8 +50,12 @@ body {
 
 
 }
-.placeholder{
-  color: white;
+::placeholder{
+  color: black;
+}
+.image{
+  height: 200px;
+  image-rendering:crisp-edges;
 }
 
 input {
